@@ -1,0 +1,11 @@
+name: cancer-sv-pipeline
+channels:
+  - conda-forge
+  - base
+  - bioconda
+  - R
+dependencies:
+  - wget=1.20.3
+  - snakemake=7.18.2
+  - snakemake-wrapper-utils=0.5.0
+
